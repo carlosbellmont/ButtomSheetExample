@@ -28,58 +28,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sing_up"
+            android:text="@string/see_more"
             android:textColor="@color/white"
             />
     </LinearLayout>
-
-    <EditText
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_standard"
-        android:hint="@string/name"
-        android:autofillHints="@string/name"
-        android:inputType="text" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_standard"
-        android:hint="@string/surname"
-        android:autofillHints="@string/surname"
-        android:inputType="text"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_standard"
-        android:hint="@string/phone"
-        android:autofillHints="@string/phone"
-        android:inputType="phone"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_standard"
-        android:hint="@string/email"
-        android:autofillHints="@string/email"
-        android:inputType="textEmailAddress"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_standard"
-        android:hint="@string/password"
-        android:autofillHints="@string/password"
-        android:inputType="textPassword" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/sing_up"
-        android:layout_gravity="end"
-        android:layout_margin="@dimen/margin_standard"
-        android:paddingStart="@dimen/margin_standard"
-        android:paddingEnd="@dimen/margin_standard" />
+        android:src="@mipmap/general"/>
 
 </LinearLayout>
